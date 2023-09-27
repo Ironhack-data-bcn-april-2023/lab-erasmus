@@ -7,11 +7,9 @@ Using the erasmus database, answer the following questions. The database has the
 ![Alt text](images/image.png)
 
 1. What is the average age of students who have outstanding grades? Provide the table with EXCELLENT if they have a 9 or 10, GOOD if they have 7 or 8, PASS if they have a 5 or 6, and FAIL if it is less than 5.
-
 ![Alt text](images/image-1.png)
 
 2. What is the average age of students by university?
-
 ![Alt text](images/image-2.png)
 
 3. What is the proportion of students who failed each subject? Provide the subject name, number of students who failed, total number of students, and the proportion of students who failed (as a percentage) for each subject. Display the results in descending order of the proportion of students who failed.
@@ -30,7 +28,6 @@ Using the erasmus database, answer the following questions. The database has the
 ![Alt text](images/image-7.png)
 
 8. Make a query where, by modifying the international agreement number, you can identify the id and name of the student who did the exchange, the name of the home university and the name of the city where the exchange took place.
-
 ![Alt text](images/image-8.png)
 
 Bonus: Now you can try to use procedures to parameterize the query. https://learn.microsoft.com/es-es/sql/t-sql/statements/create-procedure-transact-sql?view=sql-server-ver16
@@ -43,7 +40,6 @@ Bonus: Now you can try to use procedures to parameterize the query. https://lear
 ![Alt text](images/image-11.png)
 
 11. Compare the universities that send the most students with the universities that receive the most students. Do it in 2 queries.
-
 ![Alt text](images/image-12.png)
 
 Bonus: Now you can try to join both queries by using "UNION ALL" operator.
@@ -59,5 +55,4 @@ Bonus: Now you can try to join both queries by using "UNION ALL" operator.
 ![Alt text](images/image-16.png)
 
 15. Create a CTE that calculates the total number of subjects offered by each university. Include the columns uni_name and total_subjects. Then, write a query to select all the rows from the CTE in descending order of total subjects.
-
 ![Alt text](images/image-17.png)
